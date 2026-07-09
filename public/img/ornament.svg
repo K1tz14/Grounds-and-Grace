@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 500 500"
+     fill="none">
+
+    <circle cx="250" cy="250" r="240" stroke="#C4922A" stroke-width="0.5"/>
+    <circle cx="250" cy="250" r="220" stroke="#C4922A" stroke-width="0.5" stroke-dasharray="4 8"/>
+    <circle cx="250" cy="250" r="180" stroke="#C4922A" stroke-width="0.5"/>
+    <circle cx="250" cy="250" r="160" stroke="#C4922A" stroke-width="0.5" stroke-dasharray="2 6"/>
+
+    <g stroke="#C4922A" stroke-width="0.5">
+        <line x1="250" y1="10" x2="250" y2="490"/>
+        <line x1="10" y1="250" x2="490" y2="250"/>
+        <line x1="80" y1="80" x2="420" y2="420"/>
+        <line x1="420" y1="80" x2="80" y2="420"/>
+
+        <polygon points="250,28 260,50 250,72 240,50"/>
+        <polygon points="472,250 450,260 428,250 450,240"/>
+        <polygon points="250,472 260,450 250,428 240,450"/>
+        <polygon points="28,250 50,260 72,250 50,240"/>
+    </g>
+
+</svg>

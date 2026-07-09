@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Grounds & Grace — Artisan Coffee House</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=IM+Fell+English:ital@0;1&family=Josefin+Sans:wght@100;300;400&display=swap"
+          rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="public/css/global.css">
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a class="nav-logo" href="#hero">Grounds <span>& Grace</span></a>
+    <ul class="nav-links">
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#visit">Visit</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <img
+    src="public/img/ornament.svg"
+    class="hero-ornament"
+    alt="ornament"
+    aria-hidden="true">
+
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Est. 1987 · Artisan Coffee House</p>
+      <h1 class="hero-title">
+        Grounds
+        <em>& Grace</em>
+      </h1>
+      <div class="hero-divider">
+        <img
+        src="public/img/coffee-divider.svg"
+        class="hero-divider-icon"
+        alt="coffee-divider"
+        aria-hidden="true">
+      </div>
+      <p class="hero-subtitle">
+        Where every cup is a meditation, every corner a story,<br>
+        and every morning becomes a ritual worth returning to.
+      </p>
+      <div class="hero-cta-wrap">
+        <a href="#menu" class="btn-primary"><span>Explore Our Menu</span></a>
+        <a href="#story" class="btn-ghost">Our Heritage</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+<section id="story">
+    <div class="story-grid">
+
+        <div class="story-image reveal">
+            <img
+                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80"
+                alt="Inside Grounds & Grace">
+        </div>
+
+        <div class="story-content">
+
+            <p class="section-label reveal">
+                Our Heritage
+            </p>
+
+            <h2 class="section-title reveal reveal-delay-1">
+                A story <em>steeped</em><br>
+                in tradition
+            </h2>
+
+            <div class="story-body reveal reveal-delay-2">
+                <p>
+                    Born from a single vision — that coffee, like art,
+                    deserves reverence — Grounds & Grace opened its doors in
+                    1987 in a converted Victorian bookshop. Our founder,
+                    Margaret Ellison, brought her grandmother's recipes from
+                    the highlands of Colombia and married them with the ritual
+                    of the English tea house.
+                </p>
+
+                <p>
+                    Nearly four decades later, we still source single-origin
+                    beans by hand, roast in small batches every Thursday,
+                    and believe that the best cup you'll ever have is the one
+                    made for you personally.
+                </p>
+            </div>
+
+            <div class="story-stats reveal reveal-delay-3">
+
+                <div class="stat-item">
+                    <span class="stat-num" data-target="37">0</span>
+                    <span class="stat-label">Years of craft</span>
+                </div>
+
+                <div class="stat-item">
+                    <span class="stat-num" data-target="12">0</span>
+                    <span class="stat-label">Origins sourced</span>
+                </div>
+
+                <div class="stat-item">
+                    <span class="stat-num" data-target="4">0</span>
+                    <span class="stat-label">Awards won</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+  <!-- MENU -->
+  <section id="menu">
+    <div class="menu-header reveal">
+      <p class="section-label" style="justify-content:center">The Menu</p>
+      <h2 class="section-title">Crafted with <em>intention</em></h2>
+    </div>
+
+    <div class="menu-tabs" id="menuTabs">
+      <button class="tab-btn active" data-tab="coffee">Coffee</button>
+      <button class="tab-btn" data-tab="tea">Tea & Tisanes</button>
+      <button class="tab-btn" data-tab="food">Food</button>
+    </div>
+
+    <div id="menuContent" class="menu-grid"></div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="exp-grid">
+      <div class="exp-content reveal">
+        <p class="section-label">Why We're Different</p>
+        <h2 class="section-title">An <em>experience</em><br>beyond the cup</h2>
+        <p class="exp-body">We don't just serve coffee. We curate a moment of stillness in your day — a place where time
+          moves at its own pace, and every detail has been considered with care.</p>
+        <a href="#visit" class="btn-ghost"
+          style="font-family:'Josefin Sans',sans-serif;font-size:0.7rem;letter-spacing:0.3em;text-transform:uppercase;text-decoration:none;padding:1rem 2.2rem;border:1px solid rgba(196,146,42,0.5);color:var(--gold-light);transition:all 0.3s;display:inline-block;">Plan
+          Your Visit</a>
+      </div>
+      <div class="exp-cards">
+        <div class="exp-card reveal">
+          <div class="exp-card-num">01</div>
+          <h3>The Art of the Pour</h3>
+          <p>Every espresso pull is timed to the second. Our baristas train for six months before serving a single cup —
+            not because we're perfectionists, but because you deserve nothing less.</p>
+        </div>
+        <div class="exp-card reveal reveal-delay-1">
+          <div class="exp-card-num">02</div>
+          <h3>Seasonal & Sourced</h3>
+          <p>Our menu changes with the seasons and the harvest. We travel to origin farms in Ethiopia, Peru, and Sumatra
+            to taste the beans before we buy, maintaining relationships built over decades.</p>
+        </div>
+        <div class="exp-card reveal reveal-delay-2">
+          <div class="exp-card-num">03</div>
+          <h3>The Space Itself</h3>
+          <p>Designed around the rhythm of reading and conversation, our rooms hold only what's necessary — beautiful
+            books, warm light, the smell of freshly ground beans, and room to breathe.</p>
+        </div>
+        <div class="exp-card reveal reveal-delay-3">
+          <div class="exp-card-num">04</div>
+          <h3>Community & Culture</h3>
+          <p>Monthly cuppings, barista workshops, and an ongoing rotating gallery of local artists — because great
+            coffee and great culture have always grown from the same soil.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div style="max-width:600px;margin:0 auto;">
+      <p class="section-label reveal" style="justify-content:center">What People Say</p>
+      <h2 class="section-title reveal reveal-delay-1">Voices of <em>regulars</em></h2>
+    </div>
+    <div class="testimonials-wrap" id="testimonialsWrap"></div>
+    <div class="testimonial-dots" id="testimonialDots"></div>
+  </section>
+
+  <!-- VISIT -->
+  <section id="visit">
+    <div style="max-width:1200px;margin:0 auto;">
+      <p class="section-label reveal">Find Us</p>
+      <h2 class="section-title reveal reveal-delay-1">Come <em>find</em> your corner</h2>
+    </div>
+    <div class="visit-grid">
+      <div class="reveal">
+        <h3
+          style="font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--gold-light);margin-bottom:2rem;font-weight:700;">
+          Opening Hours</h3>
+        <table class="hours-table">
+          <tr>
+            <td class="day-label">Monday — Friday</td>
+            <td>7:00 am — 8:00 pm</td>
+          </tr>
+          <tr>
+            <td class="day-label">Saturday</td>
+            <td>8:00 am — 9:00 pm</td>
+          </tr>
+          <tr>
+            <td class="day-label">Sunday</td>
+            <td>9:00 am — 6:00 pm</td>
+          </tr>
+          <tr>
+            <td class="day-label">Bank Holidays</td>
+            <td>10:00 am — 5:00 pm</td>
+          </tr>
+        </table>
+        <div class="address-block">
+          <p><strong>Grounds & Grace</strong><br>
+            14 Ellison Lane, Marylebone<br>
+            London, W1G 9HT<br><br>
+            <strong>Reservations & Events:</strong><br>
+            hello@groundsandgrace.co<br>
+            +44 (0) 20 7946 0382
+          </p>
+        </div>
+      </div>
+      <div class="reveal map-placeholder">
+        <div class="map-placeholder">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4798852.271490924!2d2.1725437057458423!3d45.700245974295434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786bb09fd3b78bd%3A0x6508d5c08f50cbbb!2sLa%20Noce%20coffee%20house!5e0!3m2!1ses!2smx!4v1783272042839!5m2!1ses!2smx"
+            width="600" height="850" style="border:0;" loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a class="nav-logo" href="#hero" style="text-decoration:none;display:block;margin-bottom:1.2rem;">Grounds <span
+            style="font-style:italic;font-weight:400;color:var(--cream);">& Grace</span></a>
+        <p class="footer-tagline">Every cup is a small ceremony.<br>Every visit, a homecoming.<br>Every morning, a new
+          beginning.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="#story" class="footer-navigate">Story</a></li>
+          <li><a href="#menu" class="footer-navigate">Menu</a></li>
+          <li><a href="#visit" class="footer-navigate">Visit Us</a></li>
+          <li><a href="#testimonials" class="footer-navigate">Our Clients</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#" class="footer-navigate">Instagram</a></li>
+          <li><a href="#" class="footer-navigate">Tiktok</a></li>
+          <li><a href="#" class="footer-navigate">Youtube</a></li>
+          <li><a href="#" class="footer-navigate">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 Grounds & Grace · All rights reserved · London, England</p>
+      <p class="footer-copy">Crafted with reverence · Served with grace</p>
+    </div>
+  </footer>
+  <script src="public/js/index.js"></script>
+</body>
+
+</html>
